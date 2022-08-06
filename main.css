@@ -29,12 +29,12 @@ header {
 #form-container{
   border-right: 5px solid gray;
   border-bottom:5px solid gray; ;
-  text-align:center ;
+  text-align:left ;
   padding: 20px;
   text-transform: uppercase;
   color: yellow;
   max-width: 900px;
-  height: 75%;
+  height: 82%;
   margin: auto;
   border-radius: 10px;
   box-shadow: 5px 5px 8px ;
@@ -47,3 +47,47 @@ header {
   text-transform: uppercase;
   margin:1rem auto;
 }
+
+button{
+  border: 5px sold gray;
+  width:150px;
+  height: 40px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-style: oblique;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  cursor: pointer;
+  color:crimson;
+  box-shadow: 5px 5px 8px yellow;
+  
+}
+button:hover{
+  background-color: dodgerblue;
+  color:red;
+}
+
+#me{
+  border:5px solid gray;
+  border-radius:7px;
+  resize: none;
+  width: 100%;
+
+}
+input[type=checkbox] + label,
+input[type=radio] + label{
+  margin-bottom: 0rem;
+  margin-left: 8px;
+} 
+
+.gay{
+margin-bottom: 10px;
+}
+
+.poe{
+  text-align: center;
+  
+}
+
